@@ -20,7 +20,7 @@ Open Command Prompt :
 
 cd C:\path\to\your\chuffman
 
-2.Compile the Code
+# Compile the Code
     Use the GCC compiler to compile the code. Run the following command:
     
 gcc *.c -o chuffman -Wall
@@ -31,7 +31,7 @@ gcc *.c -o chuffman -Wall
     -o chuffman specifies the output file name as chuffman.
     -Wall enables warnings to help catch potential issues.
 
-Run the Program
+# Run the Program
 3.For Huffman Encoding
 -To compress a file (e.g., book.txt), use:
 
@@ -41,7 +41,7 @@ chuffman -e book.txt -b codebook.txt -o encoded.txt
 
 chuffman -e book.txt
 
-4.For Huffman Decoding
+# For Huffman Decoding
 
 To decode a file (e.g., encoded.txt), use:
 
@@ -51,8 +51,8 @@ chuffman -d encoded.txt -b codebook.txt -o origin.txt
 chuffman -d encoded.txt
 
 All command(ascending order) :-
-gcc *.c -o chuffman -Wall
-./chuffman -e book.txt -b codebook.txt -o encoded.txt
-./chuffman -e book.txt
-./chuffman -d encoded.txt -b codebook.txt -o origin.txt
-./chuffman -d encoded.txt
+gcc *.c -o chuffman -Wall <br>
+./chuffman -e book.txt -b codebook.txt -o encoded.txt<br>
+./chuffman -e book.txt<br>
+./chuffman -d encoded.txt -b codebook.txt -o origin.txt<br>
+./chuffman -d encoded.txt<br>
