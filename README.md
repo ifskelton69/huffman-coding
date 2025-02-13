@@ -50,7 +50,7 @@ chuffman -d encoded.txt -b codebook.txt -o origin.txt
 -Using default filenames: If you don’t provide -b or -o, the program uses:
 chuffman -d encoded.txt
 
-All command(ascending order) :-
+All command :- <br>
 gcc *.c -o chuffman -Wall <br>
 ./chuffman -e book.txt -b codebook.txt -o encoded.txt<br>
 ./chuffman -e book.txt<br>
