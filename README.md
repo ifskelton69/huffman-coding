@@ -52,12 +52,15 @@ To decode a file (e.g., encoded.txt), use:
 
 All command :- <br>
 
-    gcc *.c -o chuffman -Wall <br>
+    gcc *.c -o chuffman -Wall
     
-    ./chuffman -e book.txt -b codebook.txt -o encoded.txt<br>
-    ./chuffman -e book.txt<br>
-    ./chuffman -d encoded.txt -b codebook.txt -o origin.txt<br>
-    ./chuffman -d encoded.txt<br>
+    ./chuffman -e book.txt -b codebook.txt -o encoded.txt
+    
+    ./chuffman -e book.txt
+    
+    ./chuffman -d encoded.txt -b codebook.txt -o origin.txt
+    
+    ./chuffman -d encoded.txt
 
 #Auther 
 [Aditya Birajdar](https://github.com/ifskelton69)
