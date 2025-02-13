@@ -18,12 +18,12 @@ This project provides a hands-on learning experience in data compression algorit
 Open Command Prompt :
     1.Navigate to the folder where your chuffman code files are located. For example
 
-cd C:\path\to\your\chuffman
+''cd C:\path\to\your\chuffman''
 
 # Compile the Code
     Use the GCC compiler to compile the code. Run the following command:
     
-gcc *.c -o chuffman -Wall
+''gcc *.c -o chuffman -Wall''
    What happens here:
 
     gcc is the C compiler.
@@ -35,24 +35,29 @@ gcc *.c -o chuffman -Wall
 3.For Huffman Encoding
 -To compress a file (e.g., book.txt), use:
 
-chuffman -e book.txt -b codebook.txt -o encoded.txt
+''chuffman -e book.txt -b codebook.txt -o encoded.txt''
 
 -Using default filenames: If you don’t provide -b or -o, the program uses:
 
-chuffman -e book.txt
+''chuffman -e book.txt''
 
 # For Huffman Decoding
 
 To decode a file (e.g., encoded.txt), use:
 
-chuffman -d encoded.txt -b codebook.txt -o origin.txt
+''chuffman -d encoded.txt -b codebook.txt -o origin.txt''
 
 -Using default filenames: If you don’t provide -b or -o, the program uses:
-chuffman -d encoded.txt
+''chuffman -d encoded.txt''
 
 All command :- <br>
+'''
 gcc *.c -o chuffman -Wall <br>
 ./chuffman -e book.txt -b codebook.txt -o encoded.txt<br>
 ./chuffman -e book.txt<br>
 ./chuffman -d encoded.txt -b codebook.txt -o origin.txt<br>
 ./chuffman -d encoded.txt<br>
+'''
+
+#Auther 
+[Aditya Birajdar](https://github.com/ifskelton69)
